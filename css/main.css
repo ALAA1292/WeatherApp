@@ -1,0 +1,242 @@
+body {
+    background-color: #1e202b;
+    color: #bfc1c8;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.navbar-expand-lg {
+    padding: 50px 0;
+}
+
+.logo-text span {
+    font-size: 1.1428571429em;
+}
+
+.logo-text small {
+    font-size: 0.7142857143em;
+    color: #bfc1c8;
+}
+
+#nav .nav-item {
+    margin-left: 10px;
+}
+
+#nav .nav-link {
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+
+#nav .nav-link:hover {
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+#nav .active {
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+
+#home {
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+#search {
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+#submit {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border: none;
+    background: #009ad8;
+    border-radius: 30px;
+    color: white;
+}
+
+/* ======================================================================== */
+#weatherDetails .inner-content {
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+.today {
+    background-color: #323544;
+   
+
+}
+
+.today header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-weight: 400;
+}
+
+.today .content {
+  
+    padding: 30px 20px;
+}
+
+.location {
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+
+.today .degree {
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+
+.today .num {
+    font-size: 5.4285714286rem;
+    margin-right: 30px;
+}
+
+.custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+
+.today span {
+    margin-right: 20px;
+}
+
+.today span img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* =============================================== */
+.day2 {
+    background-color: #262936;
+}
+
+.day2 header {
+    background: rgba(0, 0, 0, 0.1);
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.day2 .inner {
+    padding: 50px 20px 10px;
+    text-align: center;
+}
+.day2 .degree{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+ .forecast-icon {
+    margin-bottom: 20px;
+   
+}
+
+/* ============================================================ */
+.day3{
+        background-color: #323544;
+
+}
+.day3 header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.day3 .degree{
+    font-size: 24px;
+     font-weight: bold;
+    color: white;
+}
+.day3 .inner {
+    padding: 50px 20px 10px;
+    text-align: center;
+}
+/* ================================================================ */
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+}
+
+.site-footer .subscribe-form {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.site-footer .subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+}
+
+.site-footer .subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+
+form input,
+form textarea,
+form select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.button,
+form input[type="submit"],
+form input[type="button"],
+form button,
+form input[type="reset"] {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    transition: 0.6s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+.site-footer .social-links a:hover{
+       background:  #009ad8;
+    color:#1e202b;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
