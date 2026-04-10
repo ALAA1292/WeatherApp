@@ -6,6 +6,9 @@ The app can also detect the user's **current location** and display weather data
 
 ![Weather App](./imgs/weather.png)
 
+----
+
+![Weather App](./weather2.png)
 ## 🚀 Live Demo
 🔗weather-app-6qfc.vercel.app
 
