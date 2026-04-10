@@ -4,6 +4,8 @@
 A simple and responsive **Weather Forecast Web Application** that allows users to search for any city and view the current weather along with a 3-day forecast.  
 The app can also detect the user's **current location** and display weather data automatically.
 
+![Weather App](./imgs/weather.png)
+
 ## 🚀 Live Demo
 🔗weather-app-6qfc.vercel.app
 
